@@ -21,7 +21,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @Entity
-@ToString
+@ToString(exclude = "books")
 public class Publisher {
 
     @Id
